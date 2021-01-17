@@ -1,0 +1,124 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+.navbar{
+    padding: .8rem;
+}
+.navbar li{
+    padding-right: 20px;
+}
+.nav-link{
+    font-size: 1.1rem !important;
+}
+
+.welcome{
+    padding-top: 5rem;
+    
+}
+.welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+#hakkimda{
+    background-color: #e6e6fa;
+    padding-bottom: 5rem;
+    background-image: url("img/white.png");
+    background-size: 100% 140%;
+}
+#yapilan{
+    background-color: #cae1ff;
+    padding-bottom: 5rem;
+}
+#yorum{
+    background-color:#8db6cd;
+    padding-bottom: 4rem;
+}
+.yorum{
+    margin-top: 6rem;
+}
+.text{
+    width: 30%;
+    height: 5rem;
+}
+
+.social a{
+    font-size: 3rem;
+    padding: 1.1rem;
+}
+.fa-facebook-square{
+    color: #d5d5d5;
+}
+.fa-twitter{
+   color: #d5d5d5;
+}
+.fa-linkedin{
+   color: #d5d5d5;
+}
+.fa-instagram{
+   color: #d5d5d5;
+}
+.fa-youtube{
+   color: #d5d5d5;
+}
+.fa-facebook-square:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-instagram:hover,.fa-youtube:hover{
+   color: #8b97a1;
+}
+.adres{
+    padding-top: 1.8rem;
+}
+footer{
+ 
+   color: #d5d5d5;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+}
+@media(max-width:992px){
+    .social a{
+        font-size: 4em;
+        padding: 2rem;
+    }
+    }
+    
+    @media(max-width:768px){
+       
+         .display-4{
+             font-size: 180%;
+         }
+         .social a{
+             font-size: 2.5em;
+             padding: 1.2rem;
+         }
+         .lead{
+            font-size: 18px;
+        }
+        
+    }
+    
+    @media(max-width:576px){
+       
+         .display-4{
+            font-size: 160%;
+        }
+        .social a{
+            font-size: 2em;
+            padding: .7rem;
+        }
+        .lead{
+            font-size: 16px;
+        }
+        .adres{
+            font-size: 16px;
+        }
+
+    }#hakkimda{
+    background-color: #e6e6fa;
+    padding-bottom: 5rem;
+    background-image: url("img/white.png");
+    background-size: 100% 130%;
+}
